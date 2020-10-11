@@ -1,4 +1,4 @@
-## todoapp
+## todo app
 
 A simple tasks app created in Javascript and HTML.
 
