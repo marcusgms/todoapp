@@ -20,5 +20,3 @@ I learned to do this simple app in rocketseat's starter with Diego Fernandes: ht
 Thank you so much, Rocketseat.
 
 You can access the app in GitHub Pages: https://marcusgms.github.io/todoapp/#
-
-_It's funny doing something like this._
