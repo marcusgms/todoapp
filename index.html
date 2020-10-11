@@ -1,0 +1,51 @@
+<html>
+
+<head>
+ <title>Todo app</title>
+ <style src="index.css">
+  body,
+  #root {
+   background-color: rgb(16, 16, 21);
+  }
+
+  body {
+   height: 100vh;
+   display: flex
+  }
+
+  * {
+   margin: 0;
+   padding: 0;
+  }
+
+  *,
+  button,
+  input {
+   font-family: 'Roboto', sans-serif
+  }
+
+  input::placeholder {
+   color: rgb(199, 199, 199);
+  }
+
+  li {
+   list-style: none;
+   font-size: 14px
+  }
+ </style>
+ <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+ <div id='app'>
+  <div class="header">
+  </div>
+  <div id="todosContainer">
+   <ul></ul>
+  </div>
+ </div>
+
+ <script src='index.js'></script>
+</body>
+
+</html>
