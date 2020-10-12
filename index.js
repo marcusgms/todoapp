@@ -50,7 +50,7 @@ function renderTodos() {
   todoElement.style.color = '#999'
 
   var deleteLink = document.createElement('a')
-  var deleteTxt = document.createTextNode("deletar")
+  var deleteTxt = document.createTextNode("delete")
   deleteLink.appendChild(deleteTxt)
   deleteLink.setAttribute('href', '#')
 
@@ -71,7 +71,7 @@ function renderTodos() {
 
 //input
 var inputElement = document.createElement('input')
-inputElement.placeholder = 'Criar novo todo'
+inputElement.placeholder = 'Create new task...'
 
 inputElement.style.borderRadius = '2px 0px 0px 2px'
 inputElement.style.padding = '5px'
@@ -82,7 +82,7 @@ inputElement.style.color = 'rgb(199, 199, 199)'
 header.appendChild(inputElement)
 
 var addButton = document.createElement('button')
-var buttonText = document.createTextNode('Adicionar')
+var buttonText = document.createTextNode('Add')
 addButton.appendChild(buttonText)
 addButton.onclick = () => {
  if (inputElement.value !== '') {
