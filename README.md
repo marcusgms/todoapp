@@ -4,7 +4,6 @@ A simple tasks app created in Javascript and HTML.
 
 _What you can learn by doing this simple app:_
 
-You can learn: 
 Create variables in JS (It's not not the best thing to do, but this project uses the word var to declare variables),
 How to manipulate DOM in JS,
 Create elements,
